@@ -56,12 +56,12 @@ public class BaseTest {
 	{
 		System.out.println("Before class --- Launch Browser");
 		
-		String browser = fileutility.readDataFromPropertyFile("browsername");
-		String url = fileutility.readDataFromPropertyFile("url");
+//		String browser = fileutility.readDataFromPropertyFile("browsername");
+//		String url = fileutility.readDataFromPropertyFile("url");
 		
 		// getting data from cmd line
-//		String browser = System.getProperty("browsername");
-//		String url = System.getProperty("url");
+		String browser = System.getProperty("browsername");
+		String url = System.getProperty("url");
 		
 		if(browser.equalsIgnoreCase("chrome"))
 		{
