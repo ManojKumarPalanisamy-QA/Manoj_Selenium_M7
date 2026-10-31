@@ -20,6 +20,7 @@ public class TC_001_Verify_User_is_able_to_add_address_or_not_Test extends BaseT
 		homepage.getAddressesBtn().click();
 //		test.log(Status.INFO, "Clicked on address button");
 		// Add comments
+		
 
 		Address_Page addresspage = new Address_Page(driver);
 		addresspage.getNewAddAddressBtn().click();
